@@ -4,49 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+
+    <!-- Link de Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Link de CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <title> Contacto </title>
 </head>
 <body>
-    <main class="contenedor-contacto">
-        <header class="encabezado">
-            <h1 id="titulo"> Feedback 2.0 -- Feedback Efectivo - Contacto</h1>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../pages/acerca-de.html">Acerca de</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="../pages/galeria.html">Galeria</a></li>
-                    <li><a href="../pages/literatura.html">Literatura</a></li>
-                </ul>
-            </nav>
-        </header>
+    
+    <header id="header">
+        <img src="../img/Logo Black.png" alt="Logo Black" class="logo">
+        <h1 id="titulo"> Contacto </h1>
 
-        <div class="contacto">
-            <form action="" class="forma">
-                <p> Contactanos </p>
-                
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre">
+        <nav>
+            <ul id="navegacion">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/acerca-de.html">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="../pages/galeria.html">Galeria</a></li>
+                <li><a href="../pages/literatura.html">Literatura</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                <br><br>
+    <div class="contacto">
+        <form action="" class="forma">
+            <p> Contactanos </p>
+            
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
 
-                <label for="correo">Email</label>
-                <input type="email" name="correo" id="correo">
+            <br><br>
 
-                <br><br>
+            <label for="correo">Email</label>
+            <input type="email" name="correo" id="correo">
 
-                <label for="">Tipo Visitante</label> <br>
-                <label for="tipo-visitante">Suscriptor</label>
-                <input type="radio" name="tipo-visitante" id="tipo-visiante" value="Suscriptor">
-                <label for="tipo-visitante">Visitante</label>
-                <input type="radio" name="tipo-visitante" id="tipo-visiante" value="Visitante">
+            <br><br>
 
-                <br><br>
-                <input type="submit" value="Enviar Informacion">
-            </form>
-        </div>
-     
-    </main>
+            <label for="">Tipo Visitante</label> <br>
+            <label for="tipo-visitante">Suscriptor</label>
+            <input type="radio" name="tipo-visitante" id="tipo-visiante" value="Suscriptor">
+            <label for="tipo-visitante">Visitante</label>
+            <input type="radio" name="tipo-visitante" id="tipo-visiante" value="Visitante">
+
+            <br><br>
+            <input type="submit" value="Enviar Informacion">
+        </form>
+    </div>
+
+
+    <footer id="footer">
+        <ul id="navegacion-footer">
+            <li><a href="#footer">facebook</a></li>
+            <li><a href="#footer">twitter</a></li>
+            <li><a href="#footer">instagram</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
